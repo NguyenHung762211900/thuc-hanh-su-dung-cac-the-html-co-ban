@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form đăng kí</title>
+    <style>
+        p  {
+            font-family:'Times New Roman', Times, serif;
+            color: rgb(0, 0, 2);
+            font-size:28px;
+        }
+       input[type="text"]{
+            border-color:silver;
+            width:180px;
+            height:40px;
+        }
+        input[type="number"]{
+            border-color:silver;
+            width:180px;
+            height:40px;
+        }
+        input[type="radio"]{
+            border-color:silver;
+            width:20px;
+            height:20px;
+        }
+        input[type="submit"]{
+            font-size:16px;
+            width:120px;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+    <p> Họ và tên:</p>
+    <input type="text" name="HT"/>
+    <p> Email:</p>
+    <input type="text" name="email"/>
+    <p>Số điện thoại:  </p>
+    <input type ="number" name="sdt"/>
+    <p>Giới tính:<br>
+    <input type ="radio" name="gt" value = "Nam" checked/> Nam
+    <input type ="radio" name="gt" value= "Nữ"/> Nữ
+    </p>
+    <p><input type ="submit" name="đk" value = "Đăng ký"/>
+    </p>
+</body>
+</html>
